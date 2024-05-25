@@ -78,3 +78,176 @@ body{
     border-top: 2px solid rgb(167, 149, 152);
     border-bottom: 2px solid rgb(167, 149, 152);
 }
+.p1,.p2,.p3,.p4,.p5{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 48.2%;
+}
+.p1{
+    top: 12%;
+}
+.p2{
+    top: 20.8%;
+}
+.p3{
+    top: 29.8%;
+}
+.p4{
+    top: 38.8%;
+}
+.p5{
+    top: 47.8%;
+}
+.p6,.p7,.p8,.p9{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+}
+.p9{
+    right: 18.8%;
+}
+.p8{
+    right: 28.4%;
+}
+.p7{
+    right: 35.8%;
+}
+.p6{
+    right: 43%;
+}
+.male1,.male2,.male3{
+    height: 70px;
+    width: 75px;
+    position: absolute;
+    bottom: 26.5%;
+    filter: hue-rotate(46deg) opacity(60%) ;
+}
+.male4,.male5{
+    width: 75px;
+    height: 70px;
+    position: absolute;
+    bottom: 26.5%;
+    filter: saturate(0%) opacity(80%);
+}
+.fem5{
+    height: 75px;
+    width: 80px;
+    bottom: 13%;
+    position: absolute;
+    filter: saturate(0%) opacity(80%);
+}
+.fem1,.fem2,.fem3,.fem4{
+    height: 75px;
+    width: 80px;
+    bottom: 13%;
+    position: absolute;
+    filter: hue-rotate(76deg) opacity(50%) ;
+}
+.male5,.fem5{
+    right: 25%;
+}
+.male4,.fem4{
+    right: 28.5%;
+}
+.male3,.fem3{
+    right: 32%;
+}
+.male2,.fem2{
+    right: 35.5%;
+}
+.male1,.fem1{
+    right: 39%;
+}
+
+.male,.fem{
+    height: 36px;
+    width: 35px;
+    border-radius: 5px;
+    position: absolute;
+    
+}
+.male{
+    right: 22%;
+    bottom: 30%;
+    background-color: #be6fbb;
+}
+.fem{
+    right: 22%;
+    bottom: 16%;
+    background-color: rgb(247, 128, 197);
+}
+.lab2{
+    position: absolute;
+    bottom: 27%;
+    right: 22.3%;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lab3{
+    color: rgb(34, 34, 34);
+    position: absolute;
+    bottom: 13%;
+    right: 22%;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lab1{
+    position: absolute;
+    bottom: 19%;
+    right: 47%;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bar1,.bar2,.bar3,.bar4,.bar5,.bar6,.bar7,.bar8{
+    width: 2.9%;
+    position: absolute;
+    bottom: 51%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.bar1{
+    right: 18.8%;
+    height:25% ;
+    background-color: rgb(247, 128, 197);
+}
+.bar2{
+    right: 21.9%;
+    height:32.5%;
+    background-color: #be6fbb;
+}
+.bar3{
+    right: 26.4%;
+    height:18% ;
+    background-color: rgb(247, 128, 197);
+}
+.bar4{
+    right: 29.4%;
+    height:27% ;
+    background-color: #be6fbb;
+}
+.bar5{
+    right: 33.7%;
+    height:15% ;
+    background-color: rgb(247, 128, 197);
+}
+.bar6{
+    right: 36.8%;
+    height:15% ;
+    background-color: #be6fbb;
+}
+.bar7{
+    right: 41.4%;
+    height:9%;
+    background-color: rgb(247, 128, 197);
+}
+.bar8{
+    right: 44.5%;
+    height:2% ;
+    background-color: #be6fbb;
+}
